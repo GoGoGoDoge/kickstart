@@ -2,7 +2,7 @@ const HDWalletProvider = require('truffle-hdwallet-provider');
 const Web3 = require('web3');
 const compiledFactory = require('./build/CampaignFactory.json');
 const provider = new HDWalletProvider(
-    'YOUR 16 SECRET WORDS HERE',
+    'YOUR META MASK SECRET WORDS (MNEMONIC) HERE',
     'https://rinkeby.infura.io/YOUR_API_TOKEN'
 );
 
